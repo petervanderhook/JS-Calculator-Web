@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href=".\css\style.css" rel="stylesheet">
+    <title>Web Calculator</title>
+</head>
+<body>
+    <script type="text/javascript" src="script.js" defer></script> 
+    <div class="main">
+        <div class="calculatorDisplay">
+
+        </div>
+        <div class="buttonrow">
+            <div class="calculatorButton">
+                <button class="input" onclick="addToStream('(')">(</button>
+            </div>
+            <div class="calculatorButton">
+                <button class="input" onclick="addToStream(')')">)</button>
+            </div>
+            <div class="calculatorButton">
+                <button class="input" onclick="addToStream('%')">%</button>
+            </div>
+            <div class="calculatorButton">
+                <button class="input" onclick="clearDisplay()">CE</button>
+            </div>
+        </div>
+        <div class="buttonrow">
+            <div class="calculatorButton">
+                <button class="input" onclick="addToStream('9')">9</button>
+            </div>
+            <div class="calculatorButton">
+                <button class="input" onclick="addToStream('8')">8</button>
+            </div>
+            <div class="calculatorButton">
+                <button class="input" onclick="addToStream('7')">7</button>
+            </div>
+            <div class="calculatorButton">
+                <button class="input" onclick="addToStream('/')">/</button>
+            </div>
+        </div>
+        <div class="buttonrow">
+            <div class="calculatorButton">
+                <button class="input" onclick="addToStream('6')">6</button>
+            </div>
+            <div class="calculatorButton">
+                <button class="input" onclick="addToStream('5')">5</button>
+            </div>
+            <div class="calculatorButton">
+                <button class="input" onclick="addToStream('4')">4</button>
+            </div>
+            <div class="calculatorButton">
+                <button class="input" onclick="addToStream('*')">x</button>
+            </div>
+        </div>
+        <div class="buttonrow">
+            <div class="calculatorButton">
+                <button class="input" onclick="addToStream('3')">3</button>
+            </div>
+            <div class="calculatorButton">
+                <button class="input" onclick="addToStream('2')">2</button>
+            </div>
+            <div class="calculatorButton">
+                <button class="input" onclick="addToStream('1')">1</button>
+            </div>
+            <div class="calculatorButton">
+                <button class="input" onclick="addToStream('-')">-</button>
+            </div>
+        </div>
+        <div class="buttonrow">
+            <div class="calculatorButton">
+                <button class="input" onclick="addToStream('0')">0</button>
+            </div>
+            <div class="calculatorButton">
+                <button class="input" onclick="addToStream('.')">.</button>
+            </div>
+            <div class="calculatorButton">
+                <button id="equals" onclick="equals()">=</button>
+            </div>
+            <div class="calculatorButton">
+                <button class="input" onclick="addToStream('+')">+</button>
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>
