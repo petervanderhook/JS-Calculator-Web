@@ -6,7 +6,7 @@ function addToStream(char) {
         stream.innerHTML = '';
         window.answered = false;
     }
-    stream.append(char + ' ');
+    stream.append(char);
 
 };
 
